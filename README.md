@@ -33,7 +33,7 @@ docker compose up --build
 
 ### Option B — run locally without Docker
 
-Requires Python 3.10+ and Node 22+.
+Requires Python 3.12 (3.10–3.13 work; brand-new Python releases may lack pre-built packages on Windows) and Node 22+.
 
 ```bash
 # 1) backend
