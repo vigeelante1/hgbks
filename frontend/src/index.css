@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+/* Monochrome design tokens. Change the look by editing these values only. */
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --color-paper: #ffffff;
+  --color-ink: #0a0a0a;
+  --color-ink-2: #3f3f3f;
+  --color-muted: #737373;
+  --color-line: #e5e5e5;
+  --color-subtle: #f6f6f6;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
