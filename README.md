@@ -7,8 +7,8 @@ A web app for a UK utility's day-ahead power-buying team. For every purchase dec
 
 Data: Elexon BMRS only — `FUELHH` (actual generation, fuel type `WIND`) and `WINDFOR` (wind forecasts).
 
-**Live app:** `<add Vercel URL here>`
-**API docs:** `<Vercel URL>/api/docs`
+**Live app:** https://hgbks.vercel.app  
+**API docs:** https://hgbks.vercel.app/api/docs
 
 ---
 
